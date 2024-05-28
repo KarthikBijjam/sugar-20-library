@@ -1,0 +1,16 @@
+<mat-card class="product-card">
+    <mat-card-header>
+      <div mat-card-avatar class="product-header-image"></div>
+      <mat-card-title>Shiba Inu</mat-card-title>
+      <mat-card-subtitle>Dog Breed</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{productDetails.imageSrc}}" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+      <h3>{{productDetails.name}} {{productDetails.tabletsCount}} Tablets Strip</h3>
+      <h4>MRP &#8377; {{productDetails.mrp}}</h4>
+      <mat-divider></mat-divider>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button>Add to Cart</button>
+    </mat-card-actions>
+  </mat-card>
